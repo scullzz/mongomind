@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');
+
+
+.MainGame{
+    height: 100vh;
+    width: 100vw;
+    background-color: #545554;
+    padding: 5px;
+}
+.limitGame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.GameHeader{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.NavigationButtonsActive{
+    border: 2px solid rgba(245, 245, 220, 1);
+    color: beige;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #545454;
+    font-family: "Golos Text", 'Neucha', "Sora", sans-serif;
+    padding: 8px 40px;
+    border-bottom: none;
+    outline: none;
+}
+.NavigationButtons{
+    border: 1px solid rgba(245, 245, 220, 0.5);
+    color: beige;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #545454;
+    font-family: "Golos Text", 'Neucha', "Sora", sans-serif;
+    padding: 8px 40px;
+    border-bottom: 2px solid rgba(245, 245, 220, 1);
+    outline: none;
+}
+.line{
+    width: 30px;
+    background-color: rgba(245, 245, 220, 1);
+    height: 2px;
+}

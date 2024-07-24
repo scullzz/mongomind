@@ -1,0 +1,283 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');
+
+.MongoMainGameButtons{
+    width: 647px;
+    height: 325px;
+    display: flex;
+    justify-content: space-between;
+}
+.mongoInput{
+    color: beige;
+    background-color: #545454;
+    width: 645px;
+    height: 398px;
+    border: none;
+    padding: 10px;
+    outline: none;
+    resize: none;
+}
+.mongoInput::placeholder{
+    color: rgba(245, 245, 220, 0.5);
+}
+.mongoInput:read-only{
+    cursor: text;
+}
+
+
+.cursor {
+    display: inline-block;
+    width: 0px;
+    height: 1em;
+    position: relative;
+    top: 0.15em;
+    border-left: 2px solid #fff;
+    animation: blink 1.5s linear infinite;
+}
+@keyframes blink {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+.LittleMongoProblemName{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    width: 280px;
+    height: 290px;
+    border-top: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.activeButton{
+    border: 2px solid rgba(245, 245, 220, 1);
+    color: beige;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #545454;
+    font-family: "Golos Text", 'Neucha', "Sora", sans-serif;
+    padding: 8px 20px;
+    border-bottom: none;
+    outline: none;
+}
+.littleGraphicsForButton{
+    width: 175px;
+    height: 1px;
+    background-color: rgba(245, 245, 220, 0.5);
+}
+.littleFlex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.NavigationButtonsActive{
+    border: 2px solid rgba(245, 245, 220, 1);
+    color: beige;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #545454;
+    font-family: "Golos Text", 'Neucha', "Sora", sans-serif;
+    padding: 8px 20px;
+    border-bottom: none;
+    outline: none;
+}
+.NavigationButtons{
+    border: 1px solid rgba(245, 245, 220, 0.5);
+    color: beige;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #545454;
+    font-family: "Golos Text", 'Neucha', "Sora", sans-serif;
+    padding: 8px 30px;
+    border-bottom: 2px solid rgba(245, 245, 220, 1);
+    outline: none;
+}
+.littleFlex1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+
+.v_text {
+    text-align: center;
+    padding: 14px;
+  }
+  
+  .v_text p {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .v_text p:before,
+  .v_text p:after {
+    content: '';
+    position: absolute;
+    width: 0;  /* Установим ширину линии в 0, чтобы её не было видно */
+    height: 0;
+    background-color: transparent;  /* Цвет линии - прозрачный */
+  }
+
+
+  .OtherButtonsBorder{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    width: 340px;
+    height: 290px;
+    border-top: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #removerSides{
+    border-left: none;
+    border-right: none;
+  }
+
+  .fetchedTaskName{
+    color: rgba(245, 245, 230, 0.7);
+  }
+
+  .MongoMainGame{
+    margin: 15px 0px;
+    width: 647px;
+    border: 1px solid rgba(245, 245, 220, 0.5);
+    height: 350px;
+    padding: 10px;
+  }
+
+
+
+.MongoMainMenu{
+    height: 30px;
+    margin-bottom: 15px;
+}
+  .littleMenuForExecution{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .liitleMenuFlex1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .littleMenuFlex2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+
+
+
+  .commaButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border: none;
+    color: beige;
+    font-weight: bold;
+    background-color: #545454;
+    font-size: 30px; /* Adjust the font size as needed */
+    outline: none; /* Remove the default focus outline */
+    padding-bottom: 17px;
+  }
+  .playButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: beige;
+    background-color: #545454;
+    font-size: 18px; /* Adjust the font size as needed */
+    outline: none; /* Remove the default focus outline */
+  }
+  .aggregateButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: beige;
+    background-color: #545454;
+    font-size: 18px; /* Adjust the font size as needed */
+    outline: none; /* Remove the default focus outline */
+    padding-bottom: 4px;
+  }
+  .backspaceButton{
+    border: none;
+    color: beige;
+    background-color: #545454;
+    outline: none; /* Remove the default focus outline */
+  }
+  .deleteButton{
+    border: none;
+    color: beige;
+    background-color: #545454;
+    outline: none;
+  }
+
+  .NumberButton{
+    font-size: 18px;
+    background-color: #545454;
+    width: 30px;
+    height: 30px;
+    outline: none;
+    color: beige;
+    border: none;
+  }
+
+  .GameSpanElement{
+    font-size: 18px;
+    color: rgba(245, 245, 235, 1);
+  }
+  .Tabnation{
+    margin-left: 20px;
+        font-size: 17px;
+    color: rgba(245, 245, 235, 1);
+  }
+  .Breckets{
+    font-size: 18px;
+    color: rgba(245, 245, 235, 1);
+  }
+  .DoubleTabnation{
+    font-size: 17px;
+    color: #9CC5A1;
+    margin-left: 40px;
+  }
+
+  
+  .HideElemBlock{
+    display: none;
+  }
+  .ShowElemBlock{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Прозрачный фон */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  .buttonError{
+    border: none;
+  color: beige;
+  border: 1px solid rgb(245, 245, 220, 0.8);
+  padding: 6px 25px;
+  background-color: #434343;
+  margin-top: 10px;
+  font-family: "Golos Text", 'Neucha', "Sora", sans-serif;
+  }
+  .headerText{
+    font-size: 20px;
+    color: beige;
+    font-family: "Golos Text", 'Neucha', "Sora", sans-serif;
+    font-weight: 700;
+  }

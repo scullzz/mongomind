@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Neucha&family=Sora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');
+
+
+.MainLogin{
+    height: 100vh;
+    width: 100vw;
+    background-color: #376A68;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+}
+.MainLoginSpace{
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #545554;
+    border-radius: 5%;
+}
+.FirstFlex{
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.FormFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.MainHeaderParag{
+    color: beige;
+font-family: 'DynaPuff', 'Neucha', 'Sora', sans-serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 125% */
+}
+.MainHeaderMiniParag{
+    color:beige;
+    font-family: "Golos Text", 'Neucha', "Sora", sans-serif;
+}
+
+
+.FormFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.MiniLoginFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+}
+.LoginLabel{
+    color: beige;
+    font-family: 'DynaPuff', 'Neucha', 'Sora', sans-serif;
+}
+.LoginInput{
+    display: flex;
+width: 300px;
+padding: 13px 12px;
+flex-direction: column;
+align-items: flex-start;
+gap: 12px;
+border: none;
+outline: none;
+}
+.PassowdLogin{
+    display: flex;
+    width: 300px;
+    padding: 13px 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    border: none;
+    margin-bottom: 48px;
+    outline: none;
+}
+.ButtonSignIn{
+    display: flex;
+    font-size: 16px;
+    width: 300px;
+    padding: 13px 24px;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    background-color: orange;
+    color: beige;
+    font-family: 'DynaPuff', 'Neucha', 'Sora', sans-serif;
+}
+
+
+
+
+.MainErrorBlock{
+    background-color: #376A68;
+    position: absolute;
+    visibility: hidden;
+    background-color: rgb(217, 2, 2);
+    color: beige;
+    margin-top: 25px;
+    padding: 10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,24 @@
+.MainFiltersBlock{
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 340px;
+    height: 290px;
+}
+.FilterButtons{
+    margin-right: 5px;
+    border: 1px solid rgba(245, 245, 220, 0.5);
+    color: beige;
+    background-color: #545454;
+    width: 90px;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    outline: none;
+}
+.FilterButtons:active{
+    color: #545454;
+    background-color: beige;
+}

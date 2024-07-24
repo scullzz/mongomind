@@ -1,0 +1,119 @@
+.MainCollectionBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+.firstGroupOfButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+.queryButtons{
+    border: 1px solid rgba(245, 245, 220, 0.5);
+    color: beige;
+    background-color: #545454;
+    width: 115px;
+    padding: 8px 11px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    outline: none;
+}
+.queryButtons:active{
+    background-color: beige;
+    color: #545454;
+}
+.firstBlockOfCollection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bracketsButtons1{
+    border: 1px solid rgba(245, 245, 220, 0.5);
+    color: beige;
+    background-color: #545454;
+    width: 30px;
+    padding: 5.5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-top-left-radius: 5px;
+    outline: none;
+}
+.bracketsButtons1:active{
+    background-color: beige;
+    color: #545454;
+}
+.bracketsButtons2{
+    border: 1px solid rgba(245, 245, 220, 0.5);
+    color: beige;
+    background-color: #545454;
+    width: 30px;
+    padding: 5.5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-top-right-radius: 5px;
+    outline: none;
+}
+.bracketsButtons2:active{
+    background-color: beige;
+    color: #545454;
+}
+.collectionNameButton{
+    border: 1px solid rgba(245, 245, 220, 0.5);
+    border-left: none;
+    border-right: none;
+    color: beige;
+    background-color: #545454;
+    width: 115px;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+    height: 29px;
+}
+.collectionNameButton:active{
+    background-color: beige;
+    color: #545454;
+}
+
+
+.secondBlockOfCollection{
+    overflow: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgba(245, 245, 220, 0.5);
+    width: 175px;
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.propertiesButtonsClock{
+    width: 174px;
+    border: none;
+    background-color: #545454;
+    color: beige;
+    font-size: 15px;
+    padding: 4px;
+}
+.propertiesButtonsClock:last-child{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.propertiesButtonsClock:active{
+    width: 174px;
+    border: none;
+    background-color: beige;
+    color: #545454;
+    font-size: 15px;
+    padding: 4px;
+}

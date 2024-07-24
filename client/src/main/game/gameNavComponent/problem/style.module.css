@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');
+
+
+.MainProblemBorder{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+.InsideBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mongoProblemHeader{
+    font-size: 24px;
+    color: #83c88b;
+    font-family: "Golos Text", 'Neucha', "Sora", sans-serif;
+
+}
+.problemText{
+    color: beige;
+    font-size: 18px;
+    font-family: "Golos Text", 'Neucha', "Sora", sans-serif;
+
+}
+
+.dataButton{
+    margin-top: 20px;
+    background-color: #545554;
+    color: beige;
+    padding: 5px 10px;
+    border: beige 1px solid;
+}
+.dataButton:active{
+    margin-top: 20px;
+    background-color: beige;
+    color: #545554;
+    padding: 5px 10px;
+}
+
+
+
+
+.v_text {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .v_text p {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .v_text p:before,
+  .v_text p:after {
+    content: '';
+    position: absolute;
+    width: 0;  /* Установим ширину линии в 0, чтобы её не было видно */
+    height: 0;
+    background-color: transparent;  /* Цвет линии - прозрачный */
+  }
+
+  .helperText{
+    
+    color: rgba(245, 245, 220, 0.5);
+  }

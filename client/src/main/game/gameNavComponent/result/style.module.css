@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');
+
+
+
+.tableColor{
+    color: beige;
+    width: auto;
+    border-collapse: collapse;
+    padding: 10px;
+}
+.maintableElem{
+    color: beige;
+    font-size: 18px;
+    font-weight: 700;
+    text-align:start;
+    padding: 8px 7px;
+    font-family: "Golos Text", 'Neucha', "Sora", sans-serif;
+    border-right: 1px solid beige;
+    border-bottom: 1px solid beige;
+}
+.maintableElem:last-child{
+    border-right: none;
+}
+.tableElem{
+    font-size: 15px;
+    color: beige;
+    padding: 8px 7px;
+    text-align:start;
+    font-family: "Golos Text", 'Neucha', "Sora", sans-serif;
+    border-right: 1px solid beige;
+}
+.tableElem:last-child{
+    text-align: center;
+    border-right: none;
+}
+.MainResultBlockOverflow{
+  height: 80vh; /* 100% of viewport height */
+  overflow: auto; /* Enable scrolling if table content exceeds viewport height */
+  margin-top: 20px;
+}
+.tbodyBlock:nth-child(odd){
+    background-color: #4d4d4d;
+}
+.ButtonLocation{
+    margin-top: 10px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ApprobedOrNotButton{
+    border: none;
+    border: 1px solid beige;
+    padding: 10px 20px;
+    background-color: #545454;
+    color: #9CC5A1;
+    font-weight: bold;
+}
+.ApprobedOrNotButton:active{
+  background-color: beige;
+  color: #545454;
+}
+.HiddenButton{
+    display: none;
+}
+
+.v_text{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+  .NothingToShow1{
+    color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+  }
+
+  .NothingToShow2{
+    color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+  }
+  .buttonEnter{
+    color: beige;
+    border: none;
+    border: 1px solid beige;
+    background-color: #545454;
+    margin-top: 30px;
+    padding: 10px 15px;
+    font-weight: 700;
+  }
+  .buttonEnter:active{
+    background-color: beige;
+    color: #545454;
+  }
+  .BlockThatCanNotSee{
+    height: 0;
+  }
+  .ChecerBlock{
+    height: 0;
+  }
