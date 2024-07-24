@@ -1,0 +1,3 @@
+/client/mongomind/node_modules/
+/server/dist/
+/server/.env/
